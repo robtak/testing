@@ -1,0 +1,169 @@
+      /* Page Styling Code */
+        *{
+            margin: 0;
+            
+        }
+        
+        body {
+            margin: 0 auto;
+        }
+        
+        p {
+            line-height: 2em;
+            font-size: 1.4em;
+        }
+        
+        /* Navigation Bar Styling Code */
+        #nav-bar {
+            text-align: center;
+            background-color:darkturquoise;
+            width: 100%;
+            border-bottom: 3px solid black;
+            position: fixed;
+            z-index: 10;
+        }
+        
+        #nav-bar >ul {
+            display: inline;
+        }
+        
+        #nav-bar >ul >li{
+            display: inline;
+            background-color: ;
+            width: auto;
+        }
+        
+        #nav-bar > ul >li >a {
+            text-decoration: none;
+            padding: 1em;
+        }
+        
+        #nav-bar > ul >li >a:hover {
+            text-decoration: underline;
+        }
+        
+        /*Page Sections Styling Code*/
+        #about-section {
+            padding: 6.5em 6.5em 3em 6.5em;
+            background-color:antiquewhite;
+            font-size: 1.2em;
+        }
+        
+        #services-section {
+            font-size: 1.2em;
+            padding: 6.5em 2em 2em 2em;
+            background-color:cadetblue;
+        }
+        
+        .container {
+            padding-top: 1.5em;
+        }
+        
+        .amen {
+            line-height: 1.5em;
+            list-style: none;
+            padding: 0 1em 0 1em;
+            display: inline-table;
+            font-style:oblique;
+        }
+        
+        #enquiries-section {
+            padding: 6.5em 2em 2em 2em;
+            background-color:coral;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        
+        #enquiries-section >form >input {
+            height: 2em;
+            width: 20em;
+        }
+        
+        #contact-section {
+            padding: 6.5em 2em 0.2em 2em;
+            border-top: 3px solid black;
+            background-color: darkgray;
+            font-size: 1.2em;
+        }
+        
+        .sub-head {
+            font-weight: bolder;
+        }
+        .footer {
+            padding: 0 7em 0 10em;
+        }
+        
+        #footer-nav {
+            list-style: none;
+            font-size: 1.2em;
+        }
+        
+        .footer-left {
+            float: left;
+        }
+        
+        .footer-right {
+            float: right;
+        }
+        
+        .footer-note {
+            text-align: center;
+            font-size: 1.1em;
+        }        
+
+        /* CAR RENTALS PAGE STYLING CODE */
+        .car-rental-link {
+            background-color:darkcyan;
+            border-radius: 0.5em;
+            font-size: 1.1em;
+            padding: 0.4em;
+            color:black;
+        }
+        .car-options {
+            background-color:azure;
+            padding: 8em 2em 2em 2em;
+        }
+        .car-samples {
+            text-align: center;
+            padding: 2em 2em 2em 2em;
+        }
+
+        #renting-cars {
+            padding: 1em 2em 1em 2em;
+            border-radius: 10em;
+            height: 20em; 
+            width: 35em;
+        }
+
+        .tourist-sites-link {
+            background-color:darkcyan;
+            border-radius: 0.5em;
+            font-size: 1.1em;
+            padding: 0.4em;
+            color: black;
+        }
+        
+        /* TOURIST SITES STYLING CODE */
+        .intro {
+            padding: 8em 1.5em 1.5em;
+            background-color:azure;
+        }
+        .site-options {
+            background-color:azure;
+            padding: 0 2em 0 2em;
+        }
+        
+        .sites {
+            padding: 0;
+        }
+
+        .site-images {
+            height: 18em;
+            width: 25em;
+            padding: 0.5em;
+            float: right;
+        }
+
+        .intro {
+            padding-top: 8em;
+        }
